@@ -1,0 +1,31 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Michele Panariello'
+theme = 'paper'
+
+[params]
+  # Using a placeholder URL that contains "http" to satisfy the theme's check
+  avatar = 'https://ui-avatars.com/api/?name=User&size=200'
+  name = 'Michele Panariello'
+  bio = "Hello there, this is my new shitty website. It's a bit shitty, like everything else I do. Have fun exploring it."
+  github = 'm-pana'
+  linkedin = 'michele-panariello'
+  # color options: linen, wheat, gray, light
+  color = 'linen'
+
+[menu]
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 10
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 15
+  [[menu.main]]
+    identifier = "music"
+    name = "Music"
+    url = "/music/"
+    weight = 20
